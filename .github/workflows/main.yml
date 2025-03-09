@@ -35,23 +35,23 @@ jobs:
     
     - name: Crear cliente de prueba
       run: |
-        python gestor_clientes.py crear "IvanZarate" "juan rulfo 123" "33-33-45-45-46" "internet"
-        echo "🚀 Nuevo cliente creado: IvanZarate. Notificando al equipo..."
+        python gestor_clientes.py crear "Ivan Zarate" "juan rulfo 123" "33-33-45-45-46" "internet"
+        echo "🚀 Nuevo cliente creado: Ivan Zarate. Notificando al equipo..."
     
     - name: Verificar cliente creado
       run: |
-        python gestor_clientes.py ver "IvanZarate"
-        echo "📢 Consulta de cliente: IvanZarate. Notificando al equipo..."
+        python gestor_clientes.py ver "Ivan Zarate"
+        echo "📢 Consulta de cliente: Ivan Zarate. Notificando al equipo..."
     
     - name: Actualizar cliente recurrente
       run: |
-        python gestor_clientes.py actualizar "IvanZarate" "Fibra Óptica 500MB"
-        echo "🔄 Cliente recurrente actualizado: IvanZarate. Notificando al equipo..."
+        python gestor_clientes.py actualizar "Ivan Zarate" "Fibra Óptica 500MB"
+        echo "🔄 Cliente recurrente actualizado: Ivan Zarate. Notificando al equipo..."
     
     - name: Verificar cliente actualizado
       run: |
-        python gestor_clientes.py ver "IvanZarate"
-        echo "📢 Consulta posterior a la actualización de cliente: IvanZarate. Notificando al equipo..."
+        python gestor_clientes.py ver "Ivan Zarate"
+        echo "📢 Consulta posterior a la actualización de cliente: Ivan Zarate. Notificando al equipo..."
     
     - name: Listar clientes actualizados
       run: |
